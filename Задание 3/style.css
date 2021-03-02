@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: linear-gradient(130deg,      rgba(294,145,195,1) 0%, rgba(15,27,105,1)    100%);
+width: 100%;
+margin: 50px 0;
+text-align: center;   
+}
+
+.input-form {
+background: beige;
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 17px;
+  border-radius: 1.5px;
+  cursor: pointer;
+}
+.button {
+  color: blue;
+  background: beige;
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  border-radius: 1.5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.geo-button {
+color: white;
+background: grey;
+}
+
+.button:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
